@@ -256,6 +256,17 @@ ul {
   margin-right: 10px;
 }
 
+/*clients container*/
+.clients {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.clients .clients-items:not(:last-child) {
+  margin-right: 30px;
+}
+
 /*footer*/
 .footer {
   color: var(--special-text-color);
