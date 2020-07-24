@@ -169,7 +169,6 @@ ul {
 
 /*our work container*/
 .work-container {
-  height: 386px;
   padding-bottom: 94px;
 }
 
@@ -189,15 +188,44 @@ ul {
 }
 
 .work-title {
-  padding: 27px, 82px;
+  height: 70px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  text-align: center;
 
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
+  background: rgba(47, 48, 58, 0.8);
   color: var(--special-text-color);
   text-decoration: none;
+}
+
+/*command container*/
+.command-container {
+  padding-bottom: 94px;
+}
+
+.command {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.command .command-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.command-item {
+  width: 270px;
+  height: 422px;
+}
+
+.command-photo {
+  width: 270px;
+  height: 260px;
 }
 
 .command-title {
@@ -205,6 +233,7 @@ ul {
   font-size: 16px;
   line-height: 1.1875;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -213,6 +242,18 @@ ul {
   font-size: 16px;
   line-height: 1.1875;
   letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.command-contacts {
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.command-contcts .command-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /*footer*/
