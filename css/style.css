@@ -126,6 +126,7 @@ ul {
   font-size: 36px;
   line-height: 1.167;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -137,7 +138,7 @@ ul {
 }
 
 .skills-container {
-  padding-top: 61px;
+  height: 251px;
   padding-bottom: 94px;
 }
 
@@ -166,11 +167,35 @@ ul {
   color: var(--title-text-color);
 }
 
+/*our work container*/
+.work-container {
+  height: 386px;
+  padding-bottom: 94px;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.work .work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work-item {
+  width: 370px;
+  height: 294px;
+}
+
 .work-title {
+  padding: 27px, 82px;
+
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--special-text-color);
   text-decoration: none;
 }
