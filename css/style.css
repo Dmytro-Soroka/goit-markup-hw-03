@@ -257,9 +257,14 @@ ul {
 }
 
 /*clients container*/
+.client-container {
+  padding-bottom: 94px;
+}
+
 .clients {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding-left: 0;
 }
 
@@ -269,15 +274,38 @@ ul {
 
 /*footer*/
 .footer {
+  height: 252px;
   color: var(--special-text-color);
   background-color: #2f303a;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-info {
+  margin-right: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.footer-logo {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .footer-logo-half {
   color: var(--special-text-color);
 }
 
+.footer-contacts-section {
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
 .footer-title {
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
@@ -291,18 +319,48 @@ ul {
 }
 
 .footer-adress {
+  margin-top: 33px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
 
-.footer-button {
+.footer-contacts {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 20px;
+}
+
+.footer-contacts .footer-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer-subscribe {
+  margin-left: auto;
+}
+
+.footer-button-text {
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
+  margin-right: 10px;
   letter-spacing: 0.06em;
   color: var(--special-text-color);
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 29px;
+
+  background-color: var(--accent-text-color);
 }
 
 /*portfolio*/
