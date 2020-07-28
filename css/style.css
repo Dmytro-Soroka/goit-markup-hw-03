@@ -101,13 +101,39 @@ ul {
 }
 
 /*hero*/
+.main-hero {
+  margin-left: 0px;
+}
+
+.hero {
+  height: 600px;
+  width: 1600px;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
   color: var(--special-text-color);
 }
 
@@ -119,6 +145,22 @@ ul {
   letter-spacing: 0.06em;
   color: var(--special-text-color);
   text-decoration: none;
+}
+
+.hero-button {
+  margin-left: 248px;
+  margin-right: 248px;
+
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  text-align: center;
+
+  border-radius: 4px;
+
+  background-color: var(--accent-text-color);
 }
 
 /*main contant*/
